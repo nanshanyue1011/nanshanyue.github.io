@@ -55,6 +55,10 @@
   
   
   
+    
+<link rel="stylesheet" href="https://npm.webcache.cn/@waline/client@v2/dist/waline.css">
+
+  
   
   
 <script src="https://npm.webcache.cn/pace-js@1.2.4/pace.min.js"></script>
@@ -278,17 +282,27 @@
 - [ ] 购买域名+服务器，建立真正属于自己的网站
 </code></pre>
 <p>联系方式</p>
-<p>邮箱:email:: <a href="mailto:&#x7a;&#104;&#110;&#49;&#x30;&#49;&#x31;&#x40;&#x61;&#x6c;&#117;&#109;&#x6e;&#105;&#x2e;&#x73;&#106;&#116;&#x75;&#x2e;&#x65;&#x64;&#x75;&#x2e;&#x63;&#x6e;">&#x7a;&#104;&#110;&#49;&#x30;&#49;&#x31;&#x40;&#x61;&#x6c;&#117;&#109;&#x6e;&#105;&#x2e;&#x73;&#106;&#116;&#x75;&#x2e;&#x65;&#x64;&#x75;&#x2e;&#x63;&#x6e;</a> </p>
+<p>邮箱:email:: <a href="mailto:&#x7a;&#x68;&#x6e;&#x31;&#x30;&#x31;&#x31;&#64;&#x61;&#108;&#x75;&#109;&#110;&#x69;&#x2e;&#x73;&#x6a;&#x74;&#117;&#x2e;&#x65;&#x64;&#117;&#46;&#99;&#x6e;">&#x7a;&#x68;&#x6e;&#x31;&#x30;&#x31;&#x31;&#64;&#x61;&#108;&#x75;&#109;&#110;&#x69;&#x2e;&#x73;&#x6a;&#x74;&#117;&#x2e;&#x65;&#x64;&#117;&#46;&#99;&#x6e;</a> </p>
 <p>GitHub:spider_web::  <a target="_blank" rel="noopener" href="https://github.com/nanshanyue1011">https://github.com/nanshanyue1011</a> </p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/about/index.html" data-id="clspqv0rj000004uxda196hht" data-title="关于" class="article-share-link">Share</a>
+      <a data-url="http://example.com/about/index.html" data-id="clspscdsl0000ukux0j5d33w0" data-title="关于" class="article-share-link">Share</a>
+      
+      
+        <a href="/about/index.html#comments" class="article-comment-link">
+          <span class="post-comments-count waline-comment-count" data-path="/about/index.html" itemprop="commentCount"></span>
+          Comments
+        </a>
       
       
       
       
+        <span class="article-visitor-link">
+          <span class="waline-pageview-count" data-path="/about/">0</span>
+          <em class="post-meta-item-text">Readings</em>
+        </span>
       
       
 
@@ -300,6 +314,8 @@
   
 </article>
 
+
+  <div id="comments" class="wcomment"></div>
 
 
 
@@ -459,6 +475,26 @@
 
 
 
+
+  <script data-pjax type="module">
+    import { init } from "https://npm.webcache.cn/@waline/client@v2/dist/waline.mjs";
+    if(document.querySelector('.wcomment')) {
+      init({
+        el: '.wcomment',
+        serverURL: 'https://waline-test-black.vercel.app/',
+        lang: 'zh-CN',
+        locale: {},
+        emoji: ["https://unpkg.com/@waline/emojis@1.2.0/weibo","https://unpkg.com/@waline/emojis@1.2.0/alus","https://unpkg.com/@waline/emojis@1.2.0/bilibili","https://unpkg.com/@waline/emojis@1.2.0/qq","https://unpkg.com/@waline/emojis@1.2.0/tieba","https://unpkg.com/@waline/emojis@1.2.0/tw-emoji"],
+        meta: ["nick","mail","link"],
+        requiredMeta: ["nick","mail"],
+        wordLimit: JSON.parse('0'),
+        comment: true,
+        pageSize: JSON.parse('10'),
+        dark: 'html[data-theme="dark"]',
+        pageview: JSON.parse('true'),
+    });
+    }
+  </script>
 
 
 

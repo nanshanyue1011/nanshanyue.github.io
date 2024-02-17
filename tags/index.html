@@ -53,6 +53,10 @@
   
   
   
+    
+<link rel="stylesheet" href="https://npm.webcache.cn/@waline/client@v2/dist/waline.css">
+
+  
   
   
 <script src="https://npm.webcache.cn/pace-js@1.2.4/pace.min.js"></script>
@@ -265,11 +269,21 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/tags/index.html" data-id="clspqv0rr000704uxh3jn7dd3" data-title="tags" class="article-share-link">Share</a>
+      <a data-url="http://example.com/tags/index.html" data-id="clspscdst0006ukux79hab4h1" data-title="tags" class="article-share-link">Share</a>
+      
+      
+        <a href="/tags/index.html#comments" class="article-comment-link">
+          <span class="post-comments-count waline-comment-count" data-path="/tags/index.html" itemprop="commentCount"></span>
+          Comments
+        </a>
       
       
       
       
+        <span class="article-visitor-link">
+          <span class="waline-pageview-count" data-path="/tags/">0</span>
+          <em class="post-meta-item-text">Readings</em>
+        </span>
       
       
 
@@ -281,6 +295,8 @@
   
 </article>
 
+
+  <div id="comments" class="wcomment"></div>
 
 
 
@@ -440,6 +456,26 @@
 
 
 
+
+  <script data-pjax type="module">
+    import { init } from "https://npm.webcache.cn/@waline/client@v2/dist/waline.mjs";
+    if(document.querySelector('.wcomment')) {
+      init({
+        el: '.wcomment',
+        serverURL: 'https://waline-test-black.vercel.app/',
+        lang: 'zh-CN',
+        locale: {},
+        emoji: ["https://unpkg.com/@waline/emojis@1.2.0/weibo","https://unpkg.com/@waline/emojis@1.2.0/alus","https://unpkg.com/@waline/emojis@1.2.0/bilibili","https://unpkg.com/@waline/emojis@1.2.0/qq","https://unpkg.com/@waline/emojis@1.2.0/tieba","https://unpkg.com/@waline/emojis@1.2.0/tw-emoji"],
+        meta: ["nick","mail","link"],
+        requiredMeta: ["nick","mail"],
+        wordLimit: JSON.parse('0'),
+        comment: true,
+        pageSize: JSON.parse('10'),
+        dark: 'html[data-theme="dark"]',
+        pageview: JSON.parse('true'),
+    });
+    }
+  </script>
 
 
 
