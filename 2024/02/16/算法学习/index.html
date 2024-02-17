@@ -1,6 +1,6 @@
 
   <!DOCTYPE html>
-  <html lang="en"  >
+  <html lang="zh-cn"  >
   <head>
   <meta charset="utf-8">
   
@@ -11,7 +11,7 @@
   <title>
     跟着carl学算法 |
     
-    Hexo
+    月出南山
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="preload" href="https://fonts.googleapis.com/css?family=Mulish:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20SC:300,300italic,400,400italic,700,700italic%7CUbuntu%20Mono:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext" as="style" onload="this.onload&#x3D;null;this.rel&#x3D;&#39;stylesheet&#39;">
@@ -23,22 +23,23 @@
   
 <link rel="stylesheet" href="/css/loader.css">
 
-  <meta name="description" content="数组​	数组是非常基础的数据结构，在面试中，考察数组的题目一般在思维上都不难，主要是考察对代码的掌控能力 ​	也就是说，想法很简单，但实现起来 可能就不是那么回事了。 存储方式​	首先要知道数组在内存中的存储方式，这样才能真正理解数组相关的面试题 ​	数组是存放在连续内存空间上的相同类型数据的集合。 ​	数组可以方便的通过下标索引的方式获取到下标下对应的数据。 ​	需要两点注意的是 ​		1. 数">
+  <meta name="description" content="数组 ​	数组是非常基础的数据结构，在面试中，考察数组的题目一般在思维上都不难，主要是考察对代码的掌控能力 ​	也就是说，想法很简单，但实现起来 可能就不是那么回事了。 ###　存储方式 ​	首先要知道数组在内存中的存储方式，这样才能真正理解数组相关的面试题 ​	数组是存放在连续内存空间上的相同类型数据的集合。 ​	数组可以方便的通过下标索引的方式获取到下标下对应的数据。 ​	需要两点注意的是 ​">
 <meta property="og:type" content="article">
 <meta property="og:title" content="跟着carl学算法">
 <meta property="og:url" content="http://example.com/2024/02/16/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="数组​	数组是非常基础的数据结构，在面试中，考察数组的题目一般在思维上都不难，主要是考察对代码的掌控能力 ​	也就是说，想法很简单，但实现起来 可能就不是那么回事了。 存储方式​	首先要知道数组在内存中的存储方式，这样才能真正理解数组相关的面试题 ​	数组是存放在连续内存空间上的相同类型数据的集合。 ​	数组可以方便的通过下标索引的方式获取到下标下对应的数据。 ​	需要两点注意的是 ​		1. 数">
-<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="月出南山">
+<meta property="og:description" content="数组 ​	数组是非常基础的数据结构，在面试中，考察数组的题目一般在思维上都不难，主要是考察对代码的掌控能力 ​	也就是说，想法很简单，但实现起来 可能就不是那么回事了。 ###　存储方式 ​	首先要知道数组在内存中的存储方式，这样才能真正理解数组相关的面试题 ​	数组是存放在连续内存空间上的相同类型数据的集合。 ​	数组可以方便的通过下标索引的方式获取到下标下对应的数据。 ​	需要两点注意的是 ​">
+<meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://code-thinking-1253855093.file.myqcloud.com/pics/20200806195114541-20230310121459257.png">
 <meta property="og:image" content="https://code-thinking-1253855093.file.myqcloud.com/pics/20200806195134331-20230310121503147.png">
 <meta property="article:published_time" content="2024-02-15T16:00:00.000Z">
 <meta property="article:modified_time" content="2024-02-16T13:42:44.838Z">
-<meta property="article:author" content="John Doe">
+<meta property="article:author" content="南山月初瑕">
+<meta property="article:tag" content="哲思|计算机科学|技术分享|音乐鉴赏">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://code-thinking-1253855093.file.myqcloud.com/pics/20200806195114541-20230310121459257.png">
   
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    <link rel="alternate" href="/atom.xml" title="月出南山" type="application/atom+xml">
   
   
     <link rel="shortcut icon" href="/images/favicon.ico">
@@ -136,17 +137,17 @@
     
       <span class="main-nav-link-wrap">
         <span class="main-nav-icon"></span>
-        <a class="main-nav-link" href="/">Home</a>
+        <a class="main-nav-link" href="/">主页</a>
       </span>
     
       <span class="main-nav-link-wrap">
         <span class="main-nav-icon"></span>
-        <a class="main-nav-link" href="/archives">Archives</a>
+        <a class="main-nav-link" href="/archives">文章</a>
       </span>
     
       <span class="main-nav-link-wrap">
         <span class="main-nav-icon"></span>
-        <a class="main-nav-link" href="/about">About</a>
+        <a class="main-nav-link" href="/about">关于</a>
       </span>
     
     <a id="main-nav-toggle" class="nav-icon"></a>
@@ -192,12 +193,12 @@
     
       <div class="sidebar-toc-sidebar"><div class="sidebar-toc">
   <h3 class="toc-title">Contents</h3>
-  <div class="sidebar-toc-wrapper"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%B0%E7%BB%84"><span class="toc-number">1.</span> <span class="toc-text">数组</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%98%E5%82%A8%E6%96%B9%E5%BC%8F"><span class="toc-number">1.1.</span> <span class="toc-text">存储方式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%8Evector%E5%8C%BA%E5%88%AB"><span class="toc-number">1.2.</span> <span class="toc-text">与vector区别</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%8D%E8%83%BD%E5%88%A0%E9%99%A4"><span class="toc-number">1.3.</span> <span class="toc-text">不能删除</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84"><span class="toc-number">1.4.</span> <span class="toc-text">二维数组</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%95%B0%E7%BB%84%E7%9B%B8%E5%85%B3%E9%A2%98%E7%9B%AE"><span class="toc-number">1.5.</span> <span class="toc-text">数组相关题目</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-number">1.6.</span> <span class="toc-text">总结</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%8C%E5%88%86%E6%B3%95"><span class="toc-number">1.6.1.</span> <span class="toc-text">二分法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8F%8C%E6%8C%87%E9%92%88%E6%B3%95"><span class="toc-number">1.6.2.</span> <span class="toc-text">双指针法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3"><span class="toc-number">1.6.3.</span> <span class="toc-text">滑动窗口</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%A8%A1%E6%8B%9F%E8%A1%8C%E4%B8%BA"><span class="toc-number">1.6.4.</span> <span class="toc-text">模拟行为</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%93%BE%E8%A1%A8"><span class="toc-number">2.</span> <span class="toc-text">链表</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8D%95%E9%93%BE%E8%A1%A8"><span class="toc-number">2.1.</span> <span class="toc-text">单链表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%8C%E9%93%BE%E8%A1%A8"><span class="toc-number">2.2.</span> <span class="toc-text">双链表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BE%AA%E7%8E%AF%E9%93%BE%E8%A1%A8"><span class="toc-number">2.3.</span> <span class="toc-text">循环链表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%98%E5%82%A8%E6%96%B9%E5%BC%8F-1"><span class="toc-number">2.4.</span> <span class="toc-text">存储方式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%93%BE%E8%A1%A8%E5%AE%9A%E4%B9%89"><span class="toc-number">2.5.</span> <span class="toc-text">链表定义</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%93%BE%E8%A1%A8%E7%9A%84%E6%93%8D%E4%BD%9C"><span class="toc-number">2.6.</span> <span class="toc-text">链表的操作</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%88%A0%E9%99%A4%E8%8A%82%E7%82%B9"><span class="toc-number">2.6.1.</span> <span class="toc-text">删除节点</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%B7%BB%E5%8A%A0%E8%8A%82%E7%82%B9"><span class="toc-number">2.6.2.</span> <span class="toc-text">添加节点</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90"><span class="toc-number">2.7.</span> <span class="toc-text">性能分析</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%93%BE%E8%A1%A8%E7%9B%B8%E5%85%B3%E9%A2%98%E7%9B%AE"><span class="toc-number">2.8.</span> <span class="toc-text">链表相关题目</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%BB%E7%BB%93-1"><span class="toc-number">2.9.</span> <span class="toc-text">总结</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%99%9A%E6%8B%9F%E5%A4%B4%E7%BB%93%E7%82%B9"><span class="toc-number">2.9.1.</span> <span class="toc-text">虚拟头结点</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%93%BE%E8%A1%A8%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C"><span class="toc-number">2.9.2.</span> <span class="toc-text">链表的基本操作</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8"><span class="toc-number">2.9.3.</span> <span class="toc-text">反转链表</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%88%A0%E9%99%A4%E5%80%92%E6%95%B0%E7%AC%ACN%E4%B8%AA%E8%8A%82%E7%82%B9"><span class="toc-number">2.9.4.</span> <span class="toc-text">删除倒数第N个节点</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%93%BE%E8%A1%A8%E7%9B%B8%E4%BA%A4"><span class="toc-number">2.9.5.</span> <span class="toc-text">链表相交</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8"><span class="toc-number">2.9.6.</span> <span class="toc-text">环形链表</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%93%88%E5%B8%8C%E8%A1%A8"><span class="toc-number">3.</span> <span class="toc-text">哈希表</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF%E5%93%88%E5%B8%8C%E8%A1%A8"><span class="toc-number">3.1.</span> <span class="toc-text">什么是哈希表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%93%88%E5%B8%8C%E5%87%BD%E6%95%B0"><span class="toc-number">3.2.</span> <span class="toc-text">哈希函数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%93%88%E5%B8%8C%E7%A2%B0%E6%92%9E"><span class="toc-number">3.3.</span> <span class="toc-text">哈希碰撞</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B8%B8%E8%A7%81%E7%9A%84%E5%93%88%E5%B8%8C%E7%BB%93%E6%9E%84"><span class="toc-number">3.4.</span> <span class="toc-text">常见的哈希结构</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%93%88%E5%B8%8C%E8%A1%A8%E4%BD%95%E6%97%B6%E4%BD%BF%E7%94%A8"><span class="toc-number">3.5.</span> <span class="toc-text">哈希表何时使用</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%93%88%E5%B8%8C%E8%A1%A8%E7%9B%B8%E5%85%B3%E9%A2%98%E7%9B%AE"><span class="toc-number">3.6.</span> <span class="toc-text">哈希表相关题目</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%BB%E7%BB%93-2"><span class="toc-number">3.7.</span> <span class="toc-text">总结</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%95%B0%E7%BB%84%E4%BD%9C%E4%B8%BA%E5%93%88%E5%B8%8C%E8%A1%A8"><span class="toc-number">3.7.1.</span> <span class="toc-text">数组作为哈希表</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#set%E4%BD%9C%E4%B8%BA%E5%93%88%E5%B8%8C%E8%A1%A8"><span class="toc-number">3.7.2.</span> <span class="toc-text">set作为哈希表</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#map%E4%BD%9C%E4%B8%BA%E5%93%88%E5%B8%8C%E8%A1%A8"><span class="toc-number">3.7.3.</span> <span class="toc-text">map作为哈希表</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2"><span class="toc-number">4.</span> <span class="toc-text">字符串</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9B%B8%E5%85%B3%E9%A2%98%E7%9B%AE"><span class="toc-number">4.1.</span> <span class="toc-text">字符串相关题目</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8F%8C%E6%8C%87%E9%92%88%E6%B3%95-1"><span class="toc-number">4.1.1.</span> <span class="toc-text">双指针法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8F%8D%E8%BD%AC%E7%B3%BB%E5%88%97"><span class="toc-number">4.1.2.</span> <span class="toc-text">反转系列</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#KMP"><span class="toc-number">4.1.3.</span> <span class="toc-text">KMP</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%8C%E6%8C%87%E9%92%88%E6%B3%95-2"><span class="toc-number">5.</span> <span class="toc-text">双指针法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97"><span class="toc-number">6.</span> <span class="toc-text">栈与队列</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E5%8F%89%E6%A0%91"><span class="toc-number">7.</span> <span class="toc-text">二叉树</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95"><span class="toc-number">8.</span> <span class="toc-text">回溯算法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95"><span class="toc-number">9.</span> <span class="toc-text">贪心算法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92"><span class="toc-number">10.</span> <span class="toc-text">动态规划</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%95%E8%B0%83%E6%A0%88"><span class="toc-number">11.</span> <span class="toc-text">单调栈</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%BE%E8%AE%BA"><span class="toc-number">12.</span> <span class="toc-text">图论</span></a></li></ol></div>
+  <div class="sidebar-toc-wrapper"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%B0%E7%BB%84"><span class="toc-number">1.</span> <span class="toc-text">数组</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%8Evector%E5%8C%BA%E5%88%AB"><span class="toc-number">1.1.</span> <span class="toc-text">与vector区别</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%8D%E8%83%BD%E5%88%A0%E9%99%A4"><span class="toc-number">1.2.</span> <span class="toc-text">不能删除</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84"><span class="toc-number">1.3.</span> <span class="toc-text">二维数组</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%95%B0%E7%BB%84%E7%9B%B8%E5%85%B3%E9%A2%98%E7%9B%AE"><span class="toc-number">1.4.</span> <span class="toc-text">数组相关题目</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-number">1.5.</span> <span class="toc-text">总结</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%8C%E5%88%86%E6%B3%95"><span class="toc-number">1.5.1.</span> <span class="toc-text">二分法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8F%8C%E6%8C%87%E9%92%88%E6%B3%95"><span class="toc-number">1.5.2.</span> <span class="toc-text">双指针法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3"><span class="toc-number">1.5.3.</span> <span class="toc-text">滑动窗口</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%A8%A1%E6%8B%9F%E8%A1%8C%E4%B8%BA"><span class="toc-number">1.5.4.</span> <span class="toc-text">模拟行为</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%93%BE%E8%A1%A8"><span class="toc-number">2.</span> <span class="toc-text">链表</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8D%95%E9%93%BE%E8%A1%A8"><span class="toc-number">2.1.</span> <span class="toc-text">单链表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%8C%E9%93%BE%E8%A1%A8"><span class="toc-number">2.2.</span> <span class="toc-text">双链表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BE%AA%E7%8E%AF%E9%93%BE%E8%A1%A8"><span class="toc-number">2.3.</span> <span class="toc-text">循环链表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%93%BE%E8%A1%A8%E5%AE%9A%E4%B9%89"><span class="toc-number">2.4.</span> <span class="toc-text">链表定义</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%93%BE%E8%A1%A8%E7%9A%84%E6%93%8D%E4%BD%9C"><span class="toc-number">2.5.</span> <span class="toc-text">链表的操作</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%88%A0%E9%99%A4%E8%8A%82%E7%82%B9"><span class="toc-number">2.5.1.</span> <span class="toc-text">删除节点</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%B7%BB%E5%8A%A0%E8%8A%82%E7%82%B9"><span class="toc-number">2.5.2.</span> <span class="toc-text">添加节点</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%93%BE%E8%A1%A8%E7%9B%B8%E5%85%B3%E9%A2%98%E7%9B%AE"><span class="toc-number">2.6.</span> <span class="toc-text">链表相关题目</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%BB%E7%BB%93-2"><span class="toc-number">2.7.</span> <span class="toc-text">总结</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%99%9A%E6%8B%9F%E5%A4%B4%E7%BB%93%E7%82%B9"><span class="toc-number">2.7.1.</span> <span class="toc-text">虚拟头结点</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%93%BE%E8%A1%A8%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C"><span class="toc-number">2.7.2.</span> <span class="toc-text">链表的基本操作</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8"><span class="toc-number">2.7.3.</span> <span class="toc-text">反转链表</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%88%A0%E9%99%A4%E5%80%92%E6%95%B0%E7%AC%ACN%E4%B8%AA%E8%8A%82%E7%82%B9"><span class="toc-number">2.7.4.</span> <span class="toc-text">删除倒数第N个节点</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%93%BE%E8%A1%A8%E7%9B%B8%E4%BA%A4"><span class="toc-number">2.7.5.</span> <span class="toc-text">链表相交</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8"><span class="toc-number">2.7.6.</span> <span class="toc-text">环形链表</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%93%88%E5%B8%8C%E8%A1%A8"><span class="toc-number">3.</span> <span class="toc-text">哈希表</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF%E5%93%88%E5%B8%8C%E8%A1%A8"><span class="toc-number">3.1.</span> <span class="toc-text">什么是哈希表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%93%88%E5%B8%8C%E5%87%BD%E6%95%B0"><span class="toc-number">3.2.</span> <span class="toc-text">哈希函数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B8%B8%E8%A7%81%E7%9A%84%E5%93%88%E5%B8%8C%E7%BB%93%E6%9E%84"><span class="toc-number">3.3.</span> <span class="toc-text">常见的哈希结构</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%93%88%E5%B8%8C%E8%A1%A8%E4%BD%95%E6%97%B6%E4%BD%BF%E7%94%A8"><span class="toc-number">3.4.</span> <span class="toc-text">哈希表何时使用</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%93%88%E5%B8%8C%E8%A1%A8%E7%9B%B8%E5%85%B3%E9%A2%98%E7%9B%AE"><span class="toc-number">3.5.</span> <span class="toc-text">哈希表相关题目</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%BB%E7%BB%93-3"><span class="toc-number">3.6.</span> <span class="toc-text">总结</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%95%B0%E7%BB%84%E4%BD%9C%E4%B8%BA%E5%93%88%E5%B8%8C%E8%A1%A8"><span class="toc-number">3.6.1.</span> <span class="toc-text">数组作为哈希表</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#set%E4%BD%9C%E4%B8%BA%E5%93%88%E5%B8%8C%E8%A1%A8"><span class="toc-number">3.6.2.</span> <span class="toc-text">set作为哈希表</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#map%E4%BD%9C%E4%B8%BA%E5%93%88%E5%B8%8C%E8%A1%A8"><span class="toc-number">3.6.3.</span> <span class="toc-text">map作为哈希表</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9B%B8%E5%85%B3%E9%A2%98%E7%9B%AE"><span class="toc-number">3.7.</span> <span class="toc-text">字符串相关题目</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8F%8C%E6%8C%87%E9%92%88%E6%B3%95-2"><span class="toc-number">3.7.1.</span> <span class="toc-text">双指针法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8F%8D%E8%BD%AC%E7%B3%BB%E5%88%97"><span class="toc-number">3.7.2.</span> <span class="toc-text">反转系列</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#KMP"><span class="toc-number">3.7.3.</span> <span class="toc-text">KMP</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%8C%E6%8C%87%E9%92%88%E6%B3%95-3"><span class="toc-number">4.</span> <span class="toc-text">双指针法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97"><span class="toc-number">5.</span> <span class="toc-text">栈与队列</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E5%8F%89%E6%A0%91"><span class="toc-number">6.</span> <span class="toc-text">二叉树</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95"><span class="toc-number">7.</span> <span class="toc-text">回溯算法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95"><span class="toc-number">8.</span> <span class="toc-text">贪心算法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92"><span class="toc-number">9.</span> <span class="toc-text">动态规划</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%95%E8%B0%83%E6%A0%88"><span class="toc-number">10.</span> <span class="toc-text">单调栈</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%BE%E8%AE%BA"><span class="toc-number">11.</span> <span class="toc-text">图论</span></a></li></ol></div>
 </div>
 </div>
       <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
-  <img data-src="/avatar/avatar.jpg" data-sizes="auto" alt="John Doe" class="lazyload">
-  <div class="sidebar-author-name">John Doe</div>
+  <img data-src="/avatar/avatar.jpg" data-sizes="auto" alt="南山月初瑕" class="lazyload">
+  <div class="sidebar-author-name">南山月初瑕</div>
   <div class="sidebar-description"></div>
 </div>
 <div class="sidebar-state">
@@ -234,19 +235,19 @@
     <div class="sidebar-menu-link-wrap">
       <a class="sidebar-menu-link-dummy" href="/"></a>
       <span class="sidebar-menu-icon"></span>
-      <div class="sidebar-menu-link">Home</div>
+      <div class="sidebar-menu-link">主页</div>
     </div>
   
     <div class="sidebar-menu-link-wrap">
       <a class="sidebar-menu-link-dummy" href="/archives"></a>
       <span class="sidebar-menu-icon"></span>
-      <div class="sidebar-menu-link">Archives</div>
+      <div class="sidebar-menu-link">文章</div>
     </div>
   
     <div class="sidebar-menu-link-wrap">
       <a class="sidebar-menu-link-dummy" href="/about"></a>
       <span class="sidebar-menu-icon"></span>
-      <div class="sidebar-menu-link">About</div>
+      <div class="sidebar-menu-link">关于</div>
     </div>
   
 </div>
@@ -285,121 +286,155 @@
 
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <h2 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h2><p>​	数组是非常基础的数据结构，在面试中，考察数组的题目一般在思维上都不难，主要是考察对代码的掌控能力</p>
+        <h2 id="数组"><a class="header-anchor" href="#数组"></a>数组</h2>
+<p>​	数组是非常基础的数据结构，在面试中，考察数组的题目一般在思维上都不难，主要是考察对代码的掌控能力</p>
 <p>​	也就是说，想法很简单，但实现起来 可能就不是那么回事了。</p>
-<h3 id="存储方式"><a href="#存储方式" class="headerlink" title="存储方式"></a>存储方式</h3><p>​	首先要知道数组在内存中的存储方式，这样才能真正理解数组相关的面试题</p>
+<p>###　存储方式</p>
+<p>​	首先要知道数组在内存中的存储方式，这样才能真正理解数组相关的面试题</p>
 <p>​	<strong>数组是存放在连续内存空间上的相同类型数据的集合。</strong></p>
 <p>​	数组可以方便的通过下标索引的方式获取到下标下对应的数据。</p>
 <p>​	需要两点注意的是</p>
 <p>​		1. <strong>数组下标都是从0开始的。</strong></p>
 <p>​		2. <strong>数组内存空间的地址是连续的</strong></p>
 <p>​	正是<strong>因为数组的在内存空间的地址是连续的，所以我们在删除或者增添元素的时候，就难免要移动其他元素的地址</strong></p>
-<h3 id="与vector区别"><a href="#与vector区别" class="headerlink" title="与vector区别"></a>与vector区别</h3><p>​	要注意vector 和 array的区别，&#x3D;&#x3D;vector的底层实现是array，严格来讲vector是容器，不是数组&#x3D;&#x3D;。</p>
-<h3 id="不能删除"><a href="#不能删除" class="headerlink" title="不能删除"></a>不能删除</h3><p>​	<strong>数组的元素是不能删的，只能覆盖。</strong></p>
-<h3 id="二维数组"><a href="#二维数组" class="headerlink" title="二维数组"></a>二维数组</h3><p>​	对于二维数组，在C++中二维数组是连续分布的。</p>
-<h3 id="数组相关题目"><a href="#数组相关题目" class="headerlink" title="数组相关题目"></a>数组相关题目</h3><p>​	<a target="_blank" rel="noopener" href="https://leetcode.cn/problems/binary-search/description/">704. 二分查找 - 力扣（LeetCode）</a></p>
+<h3 id="与vector区别"><a class="header-anchor" href="#与vector区别"></a>与vector区别</h3>
+<p>​	要注意vector 和 array的区别，==vector的底层实现是array，严格来讲vector是容器，不是数组==。</p>
+<h3 id="不能删除"><a class="header-anchor" href="#不能删除"></a>不能删除</h3>
+<p>​	<strong>数组的元素是不能删的，只能覆盖。</strong></p>
+<h3 id="二维数组"><a class="header-anchor" href="#二维数组"></a>二维数组</h3>
+<p>​	对于二维数组，在C++中二维数组是连续分布的。</p>
+<h3 id="数组相关题目"><a class="header-anchor" href="#数组相关题目"></a>数组相关题目</h3>
+<p>​	<a target="_blank" rel="noopener" href="https://leetcode.cn/problems/binary-search/description/">704. 二分查找 - 力扣（LeetCode）</a></p>
 <p>​	<a target="_blank" rel="noopener" href="https://leetcode.cn/problems/remove-element/description/">27. 移除元素 - 力扣（LeetCode）</a></p>
 <p>​	<a target="_blank" rel="noopener" href="https://leetcode.cn/problems/squares-of-a-sorted-array/description/">977. 有序数组的平方 - 力扣（LeetCode）</a></p>
 <p>​	<a target="_blank" rel="noopener" href="https://leetcode.cn/problems/minimum-size-subarray-sum/description/">209. 长度最小的子数组 - 力扣（LeetCode）</a></p>
 <p>​	<a target="_blank" rel="noopener" href="https://leetcode.cn/problems/spiral-matrix-ii/description/">59. 螺旋矩阵 II - 力扣（LeetCode）</a></p>
-<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>​	在面试中，数组是必考的基础数据结构。</p>
+<h3 id="总结"><a class="header-anchor" href="#总结"></a>总结</h3>
+<p>​	在面试中，数组是必考的基础数据结构。</p>
 <p>​	其实数组的题目在思想上一般比较简单的，但是如果想高效，并不容易。</p>
 <p>​	我们之前一共讲解了四道经典数组题目，每一道题目都代表一个类型，一种思想。</p>
-<h4 id="二分法"><a href="#二分法" class="headerlink" title="二分法"></a>二分法</h4><p>​	考察数组的基本操作，思路很简单，但是通过率在简单题里并不高，不要轻敌。</p>
+<h4 id="二分法"><a class="header-anchor" href="#二分法"></a>二分法</h4>
+<p>​	考察数组的基本操作，思路很简单，但是通过率在简单题里并不高，不要轻敌。</p>
 <p>可以使用暴力解法，通过这道题目，如果追求更优的算法，建议试一试用二分法，来解决这道题目</p>
 <p>​	在这道题目中我们讲到了<strong>循环不变量原则</strong>，只有在循环中坚持对区间的定义，才能清楚的把握循环中的各种细节。</p>
 <p>​	<strong>二分法是算法面试中的常考题，建议通过这道题目，锻炼自己手撕二分的能力</strong>。</p>
-<h4 id="双指针法"><a href="#双指针法" class="headerlink" title="双指针法"></a>双指针法</h4><p>​	双指针法（快慢指针法）：<strong>通过一个快指针和慢指针在一个for循环下完成两个for循环的工作。</strong></p>
+<h4 id="双指针法"><a class="header-anchor" href="#双指针法"></a>双指针法</h4>
+<p>​	双指针法（快慢指针法）：<strong>通过一个快指针和慢指针在一个for循环下完成两个for循环的工作。</strong></p>
 <p>​	暴力解法时间复杂度：O(n^2)</p>
 <p>​	双指针时间复杂度：O(n)</p>
 <p>这道题目迷惑了不少同学，纠结于数组中的元素为什么不能删除，主要是因为以下两点：</p>
 <p>​	数组在内存中是连续的地址空间，不能释放单一元素，如果要释放，就是全释放（程序运行结束，回收内存栈空间）。</p>
 <p>​	C++中vector和array的区别一定要弄清楚，vector的底层实现是array，封装后使用更友好。</p>
-<p>​	双指针法（快慢指针法）在数组和链表的操作中是&#x3D;&#x3D;非常常见的&#x3D;&#x3D;，很多考察数组和链表操作的面试题，都使用双指针法。</p>
-<h4 id="滑动窗口"><a href="#滑动窗口" class="headerlink" title="滑动窗口"></a>滑动窗口</h4><p>​	本题介绍了数组操作中的另一个重要思想：滑动窗口。</p>
+<p>​	双指针法（快慢指针法）在数组和链表的操作中是==非常常见的==，很多考察数组和链表操作的面试题，都使用双指针法。</p>
+<h4 id="滑动窗口"><a class="header-anchor" href="#滑动窗口"></a>滑动窗口</h4>
+<p>​	本题介绍了数组操作中的另一个重要思想：滑动窗口。</p>
 <p>​	暴力解法时间复杂度：O(n^2)</p>
 <p>​	滑动窗口时间复杂度：O(n)</p>
 <p>​	本题中，主要要理解滑动窗口如何移动 窗口起始位置，达到动态更新窗口大小的，从而得出长度最小的符合条件的长度。</p>
-<p>​	<strong>滑动窗口的精妙之处在于根据当前子序列和大小的情况，&#x3D;&#x3D;不断调节子序列的起始位置&#x3D;&#x3D;。从而将O(n^2)的暴力解法降为O(n)。</strong></p>
+<p>​	<strong>滑动窗口的精妙之处在于根据当前子序列和大小的情况，==不断调节子序列的起始位置==。从而将O(n^2)的暴力解法降为O(n)。</strong></p>
 <p>​	如果没有接触过这一类的方法，很难想到类似的解题思路，滑动窗口方法还是很巧妙的。</p>
-<h4 id="模拟行为"><a href="#模拟行为" class="headerlink" title="模拟行为"></a>模拟行为</h4><p>​	模拟类的题目在数组中很常见，不涉及到什么算法，就是单纯的模拟，十分考察大家对代码的掌控能力。</p>
-<p>​	在这道题目中，我们再一次介绍到了&#x3D;&#x3D;循环不变量原则&#x3D;&#x3D;，其实这也是写程序中的重要原则。</p>
-<p>​	相信大家有遇到过这种情况： 感觉题目的边界调节超多，一波接着一波的判断，找边界，拆了东墙补西墙，好不容易运行通过了，代码写的十分冗余，毫无章法，其实&#x3D;&#x3D;真正解决题目的代码都是简洁的，或者有原则性的&#x3D;&#x3D;，大家可以在这道题目中体会到这一点。</p>
-<h2 id="链表"><a href="#链表" class="headerlink" title="链表"></a>链表</h2><p>​	链表是一种通过指针串联在一起的线性结构，每一个节点由两部分组成，一个是数据域一个是指针域（存放指向下一个节点的指针），最后一个节点的指针域指向null（空指针的意思）。</p>
+<h4 id="模拟行为"><a class="header-anchor" href="#模拟行为"></a>模拟行为</h4>
+<p>​	模拟类的题目在数组中很常见，不涉及到什么算法，就是单纯的模拟，十分考察大家对代码的掌控能力。</p>
+<p>​	在这道题目中，我们再一次介绍到了==循环不变量原则==，其实这也是写程序中的重要原则。</p>
+<p>​	相信大家有遇到过这种情况： 感觉题目的边界调节超多，一波接着一波的判断，找边界，拆了东墙补西墙，好不容易运行通过了，代码写的十分冗余，毫无章法，其实==真正解决题目的代码都是简洁的，或者有原则性的==，大家可以在这道题目中体会到这一点。</p>
+<h2 id="链表"><a class="header-anchor" href="#链表"></a>链表</h2>
+<p>​	链表是一种通过指针串联在一起的线性结构，每一个节点由两部分组成，一个是数据域一个是指针域（存放指向下一个节点的指针），最后一个节点的指针域指向null（空指针的意思）。</p>
 <p>​	链表的入口节点称为链表的头结点也就是head。</p>
-<h3 id="单链表"><a href="#单链表" class="headerlink" title="单链表"></a>单链表</h3><p>​	单链表中的指针域只能指向节点的下一个节点。</p>
-<h3 id="双链表"><a href="#双链表" class="headerlink" title="双链表"></a>双链表</h3><p>​	双链表：每一个节点有两个指针域，一个指向下一个节点，一个指向上一个节点。</p>
+<h3 id="单链表"><a class="header-anchor" href="#单链表"></a>单链表</h3>
+<p>​	单链表中的指针域只能指向节点的下一个节点。</p>
+<h3 id="双链表"><a class="header-anchor" href="#双链表"></a>双链表</h3>
+<p>​	双链表：每一个节点有两个指针域，一个指向下一个节点，一个指向上一个节点。</p>
 <p>​	双链表 既可以向前查询也可以向后查询。</p>
-<h3 id="循环链表"><a href="#循环链表" class="headerlink" title="循环链表"></a>循环链表</h3><p>​	循环链表，顾名思义，就是链表首尾相连。</p>
+<h3 id="循环链表"><a class="header-anchor" href="#循环链表"></a>循环链表</h3>
+<p>​	循环链表，顾名思义，就是链表首尾相连。</p>
 <p>​	循环链表可以用来解决<strong>约瑟夫环</strong>问题。</p>
-<h3 id="存储方式-1"><a href="#存储方式-1" class="headerlink" title="存储方式"></a>存储方式</h3><p>​	数组是在内存中是连续分布的，但是链表在内存中可不是连续分布的。</p>
-<p>​	链表是通过指针域的&#x3D;&#x3D;指针&#x3D;&#x3D;链接在内存中各个节点。</p>
-<p>​	所以链表中的节点在内存中&#x3D;&#x3D;不是连续&#x3D;&#x3D;分布的 ，而是散乱分布在内存中的某地址上，分配机制取决于操作系统的内存管理。</p>
-<h3 id="链表定义"><a href="#链表定义" class="headerlink" title="链表定义"></a>链表定义</h3><p>​	链表节点的定义，很多同学在面试的时候都写不好。</p>
+<p>###　存储方式</p>
+<p>​	数组是在内存中是连续分布的，但是链表在内存中可不是连续分布的。</p>
+<p>​	链表是通过指针域的==指针==链接在内存中各个节点。</p>
+<p>​	所以链表中的节点在内存中==不是连续==分布的 ，而是散乱分布在内存中的某地址上，分配机制取决于操作系统的内存管理。</p>
+<h3 id="链表定义"><a class="header-anchor" href="#链表定义"></a>链表定义</h3>
+<p>​	链表节点的定义，很多同学在面试的时候都写不好。</p>
 <p>​	这是因为平时在刷leetcode的时候，链表的节点都默认定义好了，直接用就行了，所以同学们都没有注意到链表的节点是如何定义的。</p>
 <p>​	而在面试的时候，一旦要自己手写链表，就写的错漏百出。</p>
 <p>​	下面为链表定义的代码</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">//单链表</span><br><span class="line">struct ListNode&#123;</span><br><span class="line">	int val;</span><br><span class="line">	ListNode* next;</span><br><span class="line">	ListNode():val(0),next(nullptr)&#123;&#125;</span><br><span class="line">	ListNode(int x):val(x),next(nullptr)&#123;&#125;//节点构造函数</span><br><span class="line">&#125;;</span><br><span class="line">//初始化节点</span><br><span class="line">ListNode* head = new ListNode()</span><br><span class="line">head-&gt;val = 5;</span><br><span class="line">//等价于 ListNode* head = new ListNode(5)</span><br></pre></td></tr></table></figure>
-
-<h3 id="链表的操作"><a href="#链表的操作" class="headerlink" title="链表的操作"></a>链表的操作</h3><h4 id="删除节点"><a href="#删除节点" class="headerlink" title="删除节点"></a>删除节点</h4><p>​	<img src="https://code-thinking-1253855093.file.myqcloud.com/pics/20200806195114541-20230310121459257.png" alt="链表-删除节点" style="zoom: 50%;" /></p>
+<h3 id="链表的操作"><a class="header-anchor" href="#链表的操作"></a>链表的操作</h3>
+<h4 id="删除节点"><a class="header-anchor" href="#删除节点"></a>删除节点</h4>
+<p>​	<img src="https://code-thinking-1253855093.file.myqcloud.com/pics/20200806195114541-20230310121459257.png" alt="链表-删除节点" style="zoom: 50%;"></p>
 <p>​	只要将C节点的next指针 指向E节点就可以了。在C++里最好是再手动释放这个D节点，释放这块内存</p>
-<h4 id="添加节点"><a href="#添加节点" class="headerlink" title="添加节点"></a>添加节点</h4><img src="https://code-thinking-1253855093.file.myqcloud.com/pics/20200806195134331-20230310121503147.png" alt="链表-添加节点" style="zoom:50%;" />
-
+<h4 id="添加节点"><a class="header-anchor" href="#添加节点"></a>添加节点</h4>
+<img src="https://code-thinking-1253855093.file.myqcloud.com/pics/20200806195134331-20230310121503147.png" alt="链表-添加节点" style="zoom:50%;">
 <p>​	链表的增添和删除都是O(1)操作，也不会影响到其他节点.</p>
 <p>​	注意在头处进行添加与删除的操作和其他位置不同,所以常见的处理方式是在头处加入一个dummyhead,为虚拟头节点,虚拟头节点没有实际的意义,只是方便我们进行操作.</p>
-<h3 id="性能分析"><a href="#性能分析" class="headerlink" title="性能分析"></a>性能分析</h3><p>​	数组在定义的时候，长度就是固定的，如果想改动数组的长度，就需要重新定义一个新的数组。</p>
+<p>###　性能分析</p>
+<p>​	数组在定义的时候，长度就是固定的，如果想改动数组的长度，就需要重新定义一个新的数组。</p>
 <p>​	链表的长度可以是不固定的，并且可以动态增删， 适合数据量不固定，频繁增删，较少查询的场景。</p>
-<h3 id="链表相关题目"><a href="#链表相关题目" class="headerlink" title="链表相关题目"></a>链表相关题目</h3><p>​	<a target="_blank" rel="noopener" href="https://leetcode.cn/problems/remove-linked-list-elements/description/">203. 移除链表元素 - 力扣（LeetCode）</a></p>
+<h3 id="链表相关题目"><a class="header-anchor" href="#链表相关题目"></a>链表相关题目</h3>
+<p>​	<a target="_blank" rel="noopener" href="https://leetcode.cn/problems/remove-linked-list-elements/description/">203. 移除链表元素 - 力扣（LeetCode）</a></p>
 <p>​	<a target="_blank" rel="noopener" href="https://leetcode.cn/problems/design-linked-list/description/">707. 设计链表 - 力扣（LeetCode）</a></p>
 <p>​	<a target="_blank" rel="noopener" href="https://leetcode.cn/problems/reverse-linked-list/description/">206. 反转链表 - 力扣（LeetCode）</a></p>
 <p>​	<a target="_blank" rel="noopener" href="https://leetcode.cn/problems/swap-nodes-in-pairs/description/">24. 两两交换链表中的节点 - 力扣（LeetCode）</a></p>
 <p>​	<a target="_blank" rel="noopener" href="https://leetcode.cn/problems/remove-nth-node-from-end-of-list/description/">19. 删除链表的倒数第 N 个结点 - 力扣（LeetCode）</a></p>
 <p>​	<a target="_blank" rel="noopener" href="https://leetcode.cn/problems/intersection-of-two-linked-lists-lcci/description/">面试题 02.07. 链表相交 - 力扣（LeetCode）</a></p>
 <p>​	<a target="_blank" rel="noopener" href="https://leetcode.cn/problems/linked-list-cycle-ii/description/">142. 环形链表 II - 力扣（LeetCode）</a></p>
-<h3 id="总结-1"><a href="#总结-1" class="headerlink" title="总结"></a>总结</h3><h4 id="虚拟头结点"><a href="#虚拟头结点" class="headerlink" title="虚拟头结点"></a>虚拟头结点</h4><p>​	我们讲解了链表操作中一个非常总要的技巧：虚拟头节点。</p>
+<h3 id="总结-2"><a class="header-anchor" href="#总结-2"></a>总结</h3>
+<h4 id="虚拟头结点"><a class="header-anchor" href="#虚拟头结点"></a>虚拟头结点</h4>
+<p>​	我们讲解了链表操作中一个非常总要的技巧：虚拟头节点。</p>
 <p>​	链表的一大问题就是操作当前节点必须要找前一个节点才能操作。这就造成了，头结点的尴尬，因为头结点没有前一个节点了。</p>
 <p>​	<strong>每次对应头结点的情况都要单独处理，所以使用虚拟头结点的技巧，就可以解决这个问题</strong>。</p>
-<h4 id="链表的基本操作"><a href="#链表的基本操作" class="headerlink" title="链表的基本操作"></a>链表的基本操作</h4><p>​	这是练习链表基础操作的非常好的一道题目，考察了：</p>
+<h4 id="链表的基本操作"><a class="header-anchor" href="#链表的基本操作"></a>链表的基本操作</h4>
+<p>​	这是练习链表基础操作的非常好的一道题目，考察了：</p>
 <p>​		获取链表第index个节点的数值</p>
 <p>​		在链表的最前面插入一个节点</p>
 <p>​		在链表的最后面插入一个节点</p>
 <p>​		在链表第index个节点前面插入一个节点</p>
 <p>​		删除链表的第index个节点的数值</p>
 <p><strong>可以说把这道题目做了，链表基本操作就OK了，再也不用担心链表增删改查整不明白了</strong>。</p>
-<h4 id="反转链表"><a href="#反转链表" class="headerlink" title="反转链表"></a>反转链表</h4><p>​	因为反转链表的代码相对简单，有的同学可能直接背下来了，但一写还是容易出问题。</p>
+<h4 id="反转链表"><a class="header-anchor" href="#反转链表"></a>反转链表</h4>
+<p>​	因为反转链表的代码相对简单，有的同学可能直接背下来了，但一写还是容易出问题。</p>
 <p>反转链表是面试中高频题目，很考察面试者对链表操作的熟练程度。</p>
 <p>​	建议大家先学透迭代法，然后再看递归法，因为递归法比较绕，如果迭代还写不明白，递归基本也写不明白了。</p>
 <p>​	<strong>可以先通过迭代法，彻底弄清楚链表反转的过程！</strong></p>
-<h4 id="删除倒数第N个节点"><a href="#删除倒数第N个节点" class="headerlink" title="删除倒数第N个节点"></a>删除倒数第N个节点</h4><p>​	结合虚拟头结点 和 双指针法来移除链表倒数第N个节点。</p>
-<h4 id="链表相交"><a href="#链表相交" class="headerlink" title="链表相交"></a>链表相交</h4><p>​	使用双指针来找到两个链表的交点（引用完全相同，即：内存地址完全相同的交点）</p>
-<h4 id="环形链表"><a href="#环形链表" class="headerlink" title="环形链表"></a>环形链表</h4><p>​	讲解了在链表如何找环，以及如何找环的入口位置。</p>
-<p>​	这道题目可以说是链表的比较难的题目了。 但代码却十分简洁，主要在于一些&#x3D;&#x3D;数学证明&#x3D;&#x3D;。</p>
-<h2 id="哈希表"><a href="#哈希表" class="headerlink" title="哈希表"></a>哈希表</h2><h3 id="什么是哈希表"><a href="#什么是哈希表" class="headerlink" title="什么是哈希表"></a>什么是哈希表</h3><p>​	哈希表是根据关键码的值而直接进行访问的数据结构。</p>
+<h4 id="删除倒数第N个节点"><a class="header-anchor" href="#删除倒数第N个节点"></a>删除倒数第N个节点</h4>
+<p>​	结合虚拟头结点 和 双指针法来移除链表倒数第N个节点。</p>
+<h4 id="链表相交"><a class="header-anchor" href="#链表相交"></a>链表相交</h4>
+<p>​	使用双指针来找到两个链表的交点（引用完全相同，即：内存地址完全相同的交点）</p>
+<h4 id="环形链表"><a class="header-anchor" href="#环形链表"></a>环形链表</h4>
+<p>​	讲解了在链表如何找环，以及如何找环的入口位置。</p>
+<p>​	这道题目可以说是链表的比较难的题目了。 但代码却十分简洁，主要在于一些==数学证明==。</p>
+<h2 id="哈希表"><a class="header-anchor" href="#哈希表"></a>哈希表</h2>
+<h3 id="什么是哈希表"><a class="header-anchor" href="#什么是哈希表"></a>什么是哈希表</h3>
+<p>​	哈希表是根据关键码的值而直接进行访问的数据结构。</p>
 <p>​	其实数组就是一张哈希表。哈希表中关键码就是数组的索引下标，然后通过下标直接访问数组中的元素</p>
 <p>​	<strong>一般哈希表都是用来快速判断一个元素是否出现集合里。</strong></p>
 <p>​	例如要查询一个名字是否在这所学校里。</p>
 <p>​	要枚举的话时间复杂度是O(n)，但如果使用哈希表的话， 只需要O(1)就可以做到。</p>
 <p>​	我们只需要初始化把这所学校里学生的名字都存在哈希表里，在查询的时候通过索引直接就可以知道这位同学在不在这所学校里了。</p>
 <p>​	将学生姓名映射到哈希表上就涉及到了<strong>hash function ，也就是哈希函数</strong>。</p>
-<h3 id="哈希函数"><a href="#哈希函数" class="headerlink" title="哈希函数"></a>哈希函数</h3><p>​	哈希函数，把学生的姓名直接映射为哈希表上的索引，然后就可以通过查询索引下标快速知道这位同学是否在这所学校里了。</p>
+<h3 id="哈希函数"><a class="header-anchor" href="#哈希函数"></a>哈希函数</h3>
+<p>​	哈希函数，把学生的姓名直接映射为哈希表上的索引，然后就可以通过查询索引下标快速知道这位同学是否在这所学校里了。</p>
 <p>​	通过hashCode把名字转化为数值，一般hashcode是通过特定编码方式，可以将其他数据格式转化为不同的数值，这样就把学生名字映射为哈希表上的索引数字了。</p>
 <p>​	如果hashCode得到的数值大于 哈希表的大小了，也就是大于tableSize了，怎么办呢？</p>
 <p>​	此时为了保证映射出来的索引数值都落在哈希表上，我们会在再次对数值做一个取模的操作，这样我们就保证了学生姓名一定可以映射到哈希表上了。</p>
 <p>​	此时问题又来了，哈希表我们刚刚说过，就是一个数组。</p>
 <p>​	如果学生的数量大于哈希表的大小怎么办，此时就算哈希函数计算的再均匀，也避免不了会有几位学生的名字同时映射到哈希表 同一个索引下标的位置。需要用到哈希碰撞.</p>
-<h3 id="哈希碰撞"><a href="#哈希碰撞" class="headerlink" title="哈希碰撞"></a>哈希碰撞</h3><p>​	一般哈希碰撞有两种解决方法， 拉链法和线性探测法</p>
+<p>###　哈希碰撞</p>
+<p>​	一般哈希碰撞有两种解决方法， 拉链法和线性探测法</p>
 <p>​	拉链法就是要选择适当的哈希表的大小，这样既不会因为数组空值而浪费大量内存，也不会因为链表太长而在查找上浪费太多时间。</p>
 <p>​	使用线性探测法，一定要保证tableSize大于dataSize。 我们需要依靠哈希表中的空位来解决碰撞问题。</p>
-<h3 id="常见的哈希结构"><a href="#常见的哈希结构" class="headerlink" title="常见的哈希结构"></a>常见的哈希结构</h3><p>​	当我们想使用哈希法来解决问题的时候，我们一般会选择如下三种数据结构。</p>
+<h3 id="常见的哈希结构"><a class="header-anchor" href="#常见的哈希结构"></a>常见的哈希结构</h3>
+<p>​	当我们想使用哈希法来解决问题的时候，我们一般会选择如下三种数据结构。</p>
 <p>​	1. 数组 2. set集合 3. map映射</p>
 <p>​	std::unordered_set底层实现为哈希表，std::set 和std::multiset 的底层实现是红黑树，红黑树是一种平衡二叉搜索树，所以key值是有序的，但key不可以修改，改动key值会导致整棵树的错乱，所以只能删除和增加。</p>
 <p>​	std::unordered_map 底层实现为哈希表，std::map 和std::multimap 的底层实现是红黑树。同理，std::map 和std::multimap 的key也是有序的（这个问题也经常作为面试题，考察对语言容器底层的理解）。</p>
 <p>​	当我们要使用集合来解决哈希问题的时候，优先使用unordered_set，因为它的查询和增删效率是最优的，如果需要集合是有序的，那么就用set，如果要求不仅有序还要有重复数据的话，那么就用multiset。</p>
 <p>​	那么再来看一下map ，在map 是一个key value 的数据结构，map中，对key是有限制，对value没有限制的，因为key的存储方式使用红黑树实现的。</p>
-<h3 id="哈希表何时使用"><a href="#哈希表何时使用" class="headerlink" title="哈希表何时使用"></a>哈希表何时使用</h3><p>​	总结一下，<strong>当我们遇到了要快速判断一个元素是否出现集合里的时候，就要考虑哈希法</strong>。</p>
+<h3 id="哈希表何时使用"><a class="header-anchor" href="#哈希表何时使用"></a>哈希表何时使用</h3>
+<p>​	总结一下，<strong>当我们遇到了要快速判断一个元素是否出现集合里的时候，就要考虑哈希法</strong>。</p>
 <p>​	但是哈希法也是<strong>牺牲了空间换取了时间</strong>，因为我们要使用额外的数组，set或者是map来存放数据，才能实现快速的查找。</p>
 <p>​	如果在做面试题目的时候遇到需要判断一个元素是否出现过的场景也应该第一时间想到哈希法！</p>
-<h3 id="哈希表相关题目"><a href="#哈希表相关题目" class="headerlink" title="哈希表相关题目"></a>哈希表相关题目</h3><p>​	<a target="_blank" rel="noopener" href="https://leetcode.cn/problems/valid-anagram/description/">242. 有效的字母异位词 - 力扣（LeetCode）</a></p>
+<h3 id="哈希表相关题目"><a class="header-anchor" href="#哈希表相关题目"></a>哈希表相关题目</h3>
+<p>​	<a target="_blank" rel="noopener" href="https://leetcode.cn/problems/valid-anagram/description/">242. 有效的字母异位词 - 力扣（LeetCode）</a></p>
 <p>​	<a target="_blank" rel="noopener" href="https://leetcode.cn/problems/intersection-of-two-arrays/description/">349. 两个数组的交集 - 力扣（LeetCode）</a></p>
 <p>​	<a target="_blank" rel="noopener" href="https://leetcode.cn/problems/happy-number/description/">202. 快乐数 - 力扣（LeetCode）</a></p>
 <p>​	<a target="_blank" rel="noopener" href="https://leetcode.cn/problems/two-sum/description/">1. 两数之和 - 力扣（LeetCode）</a></p>
@@ -407,21 +442,25 @@
 <p>​	<a target="_blank" rel="noopener" href="https://leetcode.cn/problems/ransom-note/description/">383. 赎金信 - 力扣（LeetCode）</a></p>
 <p>​	<a target="_blank" rel="noopener" href="https://leetcode.cn/problems/3sum/description/">15. 三数之和 - 力扣（LeetCode）</a></p>
 <p>​	<a target="_blank" rel="noopener" href="https://leetcode.cn/problems/4sum/description/">18. 四数之和 - 力扣（LeetCode）</a></p>
-<h3 id="总结-2"><a href="#总结-2" class="headerlink" title="总结"></a>总结</h3><h4 id="数组作为哈希表"><a href="#数组作为哈希表" class="headerlink" title="数组作为哈希表"></a>数组作为哈希表</h4><p>​	一些应用场景就是为数组量身定做的。</p>
+<h3 id="总结-3"><a class="header-anchor" href="#总结-3"></a>总结</h3>
+<h4 id="数组作为哈希表"><a class="header-anchor" href="#数组作为哈希表"></a>数组作为哈希表</h4>
+<p>​	一些应用场景就是为数组量身定做的。</p>
 <p>​	在<a target="_blank" rel="noopener" href="https://programmercarl.com/0242.%E6%9C%89%E6%95%88%E7%9A%84%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D.html">242.有效的字母异位词</a>中，我们提到了数组就是简单的哈希表，但是数组的大小是受限的！这道题目包含小写字母，那么使用数组来做哈希最合适不过。</p>
 <p>​	在<a target="_blank" rel="noopener" href="https://programmercarl.com/0383.%E8%B5%8E%E9%87%91%E4%BF%A1.html">383.赎金信</a>中同样要求只有小写字母，那么就给我们浓浓的暗示，用数组！</p>
 <p>​	本题和<a target="_blank" rel="noopener" href="https://programmercarl.com/0242.%E6%9C%89%E6%95%88%E7%9A%84%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D.html">242.有效的字母异位词</a>很像，<a target="_blank" rel="noopener" href="https://programmercarl.com/0242.%E6%9C%89%E6%95%88%E7%9A%84%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D.html">242.有效的字母异位词</a>是求 字符串a 和 字符串b 是否可以相互组成，在<a target="_blank" rel="noopener" href="https://programmercarl.com/0383.%E8%B5%8E%E9%87%91%E4%BF%A1.html">383.赎金信</a>中是求字符串a能否组成字符串b，而不用管字符串b 能不能组成字符串a。</p>
 <p>​	一些同学可能想，用数组干啥，都用map不就完事了。</p>
 <p>​	<strong>上面两道题目用map确实可以，但使用map的空间消耗要比数组大一些，因为map要维护红黑树或者符号表，而且还要做哈希函数的运算。所以数组更加简单直接有效！</strong></p>
-<h4 id="set作为哈希表"><a href="#set作为哈希表" class="headerlink" title="set作为哈希表"></a>set作为哈希表</h4><p>​	在<a target="_blank" rel="noopener" href="https://programmercarl.com/0349.%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84%E7%9A%84%E4%BA%A4%E9%9B%86.html">349. 两个数组的交集</a>中我们给出了什么时候用数组就不行了，需要用set。</p>
-<p>​	这道题目&#x3D;&#x3D;没有限制数值的大小&#x3D;&#x3D;，就无法使用数组来做哈希表了。</p>
+<h4 id="set作为哈希表"><a class="header-anchor" href="#set作为哈希表"></a>set作为哈希表</h4>
+<p>​	在<a target="_blank" rel="noopener" href="https://programmercarl.com/0349.%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84%E7%9A%84%E4%BA%A4%E9%9B%86.html">349. 两个数组的交集</a>中我们给出了什么时候用数组就不行了，需要用set。</p>
+<p>​	这道题目==没有限制数值的大小==，就无法使用数组来做哈希表了。</p>
 <p>​	<strong>主要因为如下两点：</strong></p>
 <p>​		数组的大小是有限的，受到系统栈空间（不是数据结构的栈）的限制。</p>
 <p>​		如果数组空间够大，但哈希值比较少、特别分散、跨度非常大，使用数组就造成空间	的极大浪费。</p>
 <p>​	所以此时一样的做映射的话，就可以使用set了。</p>
 <p>​	std::set和std::multiset底层实现都是红黑树，std::unordered_set的底层实现是哈希， 使用unordered_set 读写效率是最高的，本题并不需要对数据进行排序，而且还不要让数据重复，所以选择unordered_set。</p>
 <p>​	在<a target="_blank" rel="noopener" href="https://programmercarl.com/0202.%E5%BF%AB%E4%B9%90%E6%95%B0.html">202.快乐数</a>中，我们再次使用了unordered_set来判断一个数是否重复出现过。</p>
-<h4 id="map作为哈希表"><a href="#map作为哈希表" class="headerlink" title="map作为哈希表"></a>map作为哈希表</h4><p>​	在<a target="_blank" rel="noopener" href="https://programmercarl.com/0001.%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.html">1.两数之和</a>中map正式登场。</p>
+<h4 id="map作为哈希表"><a class="header-anchor" href="#map作为哈希表"></a>map作为哈希表</h4>
+<p>​	在<a target="_blank" rel="noopener" href="https://programmercarl.com/0001.%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.html">1.两数之和</a>中map正式登场。</p>
 <p>​	来说一说：使用数组和set来做哈希法的局限。</p>
 <p>​		数组的大小是受限制的，而且如果元素很少，而哈希值太大会造成内存空间的浪费。</p>
 <p>​		set是一个集合，里面放的元素只能是一个key，而两数之和这道题目，不仅要判断y是	否存在而且还要记录y的下标位置，因为要返回x 和 y的下标。所以set 也不能用。</p>
@@ -430,37 +469,42 @@
 <p>​	同理，std::map 和std::multimap 的key也是有序的（这个问题也经常作为面试题，考察对语言容器底层的理解），<a target="_blank" rel="noopener" href="https://programmercarl.com/0001.%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.html">1.两数之和</a>中并不需要key有序，选择std::unordered_map 效率更高！</p>
 <p>​	在<a target="_blank" rel="noopener" href="https://programmercarl.com/0454.%E5%9B%9B%E6%95%B0%E7%9B%B8%E5%8A%A0II.html">454.四数相加</a>中我们提到了其实需要哈希的地方都能找到map的身影。</p>
 <p>​	本题咋眼一看好像和<a target="_blank" rel="noopener" href="https://programmercarl.com/0018.%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C.html">18. 四数之和</a>，<a target="_blank" rel="noopener" href="https://programmercarl.com/0015.%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C.html">15.三数之和</a>差不多，其实差很多！</p>
-<p>​	<strong>关键差别是本题为四个独立的数组，只要找到A[i] + B[j] + C[k] + D[l] &#x3D; 0就可以，不用考虑重复问题，而<a target="_blank" rel="noopener" href="https://programmercarl.com/0018.%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C.html">18. 四数之和</a>，<a target="_blank" rel="noopener" href="https://programmercarl.com/0015.%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C.html">15.三数之和</a>是一个数组（集合）里找到和为0的组合，可就难很多了！</strong></p>
+<p>​	<strong>关键差别是本题为四个独立的数组，只要找到A[i] + B[j] + C[k] + D[l] = 0就可以，不用考虑重复问题，而<a target="_blank" rel="noopener" href="https://programmercarl.com/0018.%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C.html">18. 四数之和</a>，<a target="_blank" rel="noopener" href="https://programmercarl.com/0015.%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C.html">15.三数之和</a>是一个数组（集合）里找到和为0的组合，可就难很多了！</strong></p>
 <p>​	用哈希法解决了两数之和，很多同学会感觉用哈希法也可以解决三数之和，四数之和。</p>
 <p>​	其实是可以解决，但是非常麻烦，需要去重导致代码效率很低。</p>
 <p>​	在<a target="_blank" rel="noopener" href="https://programmercarl.com/0015.%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C.html">15.三数之和</a>中我给出了哈希法和双指针两个解法，大家就可以体会到，使用哈希法还是比较麻烦的。</p>
 <p>​	所以18. 四数之和，15.三数之和都推荐使用双指针法！</p>
-<h2 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h2><p>​	字符串是若干字符组成的有限序列，也可以理解为是一个字符数组，但是很多语言对字符串做了特殊的规定，接下来我来说一说C&#x2F;C++中的字符串。</p>
-<p>​	在C语言中，把一个字符串存入一个数组时，也把结束符 ‘\0’存入数组，并以此作为该字符串是否结束的标志。	</p>
+<p>##　字符串</p>
+<p>​	字符串是若干字符组成的有限序列，也可以理解为是一个字符数组，但是很多语言对字符串做了特殊的规定，接下来我来说一说C/C++中的字符串。</p>
+<p>​	在C语言中，把一个字符串存入一个数组时，也把结束符 '\0’存入数组，并以此作为该字符串是否结束的标志。</p>
 <p>​	在C++中，提供一个string类，string类会提供 size接口，可以用来判断string类字符串是否结束，就不用’\0’来判断是否结束。</p>
 <p>​	那么vector&lt; char &gt; 和 string 又有什么区别呢？</p>
 <p>​	其实在基本操作上没有区别，但是 string提供更多的字符串处理的相关接口，例如string 重载了+，而vector却没有。</p>
 <p>​	所以想处理字符串，我们还是会定义一个string类型。</p>
 <p>​	<strong>打基础的时候，不要太迷恋于库函数。</strong></p>
-<h3 id="字符串相关题目"><a href="#字符串相关题目" class="headerlink" title="字符串相关题目"></a>字符串相关题目</h3><p>​	<a target="_blank" rel="noopener" href="https://leetcode.cn/problems/reverse-string/description/">344. 反转字符串 - 力扣（LeetCode）</a></p>
+<h3 id="字符串相关题目"><a class="header-anchor" href="#字符串相关题目"></a>字符串相关题目</h3>
+<p>​	<a target="_blank" rel="noopener" href="https://leetcode.cn/problems/reverse-string/description/">344. 反转字符串 - 力扣（LeetCode）</a></p>
 <p>​	<a target="_blank" rel="noopener" href="https://leetcode.cn/problems/reverse-string-ii/description/">541. 反转字符串 II - 力扣（LeetCode）</a></p>
 <p>​	<a target="_blank" rel="noopener" href="https://leetcode.cn/problems/reverse-words-in-a-string/description/">151. 反转字符串中的单词 - 力扣（LeetCode）</a></p>
 <p>​	<a target="_blank" rel="noopener" href="https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/description/">28. 找出字符串中第一个匹配项的下标 - 力扣（LeetCode）</a></p>
 <p>​	<a target="_blank" rel="noopener" href="https://leetcode.cn/problems/repeated-substring-pattern/description/">459. 重复的子字符串 - 力扣（LeetCode）</a></p>
-<h4 id="双指针法-1"><a href="#双指针法-1" class="headerlink" title="双指针法"></a>双指针法</h4><p>​	在<a target="_blank" rel="noopener" href="https://programmercarl.com/0344.%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.html">344.反转字符串</a>，我们使用双指针法实现了反转字符串的操作，<strong>双指针法在数组，链表和字符串中很常用。</strong></p>
+<h4 id="双指针法-2"><a class="header-anchor" href="#双指针法-2"></a>双指针法</h4>
+<p>​	在<a target="_blank" rel="noopener" href="https://programmercarl.com/0344.%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.html">344.反转字符串</a>，我们使用双指针法实现了反转字符串的操作，<strong>双指针法在数组，链表和字符串中很常用。</strong></p>
 <p>​	<strong>其实很多数组填充类的问题，都可以先预先给数组扩容带填充后的大小，然后在从后向前进行操作。</strong></p>
 <p>​	那么针对数组删除操作的问题，其实在<a target="_blank" rel="noopener" href="https://programmercarl.com/0027.%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0.html">27. 移除元素</a>中就已经提到了使用双指针法进行移除操作。</p>
 <p>​	同样的道理在<a target="_blank" rel="noopener" href="https://programmercarl.com/0151.%E7%BF%BB%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2%E9%87%8C%E7%9A%84%E5%8D%95%E8%AF%8D.html">151.翻转字符串里的单词</a>中我们使用O(n)的时间复杂度，完成了删除冗余空格。</p>
 <p>​	一些同学会使用for循环里调用库函数erase来移除元素，这其实是O(n^2)的操作，因为erase就是O(n)的操作，所以这也是典型的不知道库函数的时间复杂度，上来就用的案例了。</p>
-<h4 id="反转系列"><a href="#反转系列" class="headerlink" title="反转系列"></a>反转系列</h4><p>​	在反转上还可以在加一些玩法，其实考察的是对代码的掌控能力。</p>
+<h4 id="反转系列"><a class="header-anchor" href="#反转系列"></a>反转系列</h4>
+<p>​	在反转上还可以在加一些玩法，其实考察的是对代码的掌控能力。</p>
 <p>​	<a target="_blank" rel="noopener" href="https://programmercarl.com/0541.%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2II.html">541. 反转字符串II</a>中，一些同学可能为了处理逻辑：每隔2k个字符的前k的字符，写了一堆逻辑代码或者再搞一个计数器，来统计2k，再统计前k个字符。</p>
 <p>​	其实<strong>当需要固定规律一段一段去处理字符串的时候，要想想在在for循环的表达式上做做文章</strong>。</p>
-<p>​	只要让 i +&#x3D; (2 * k)，i 每次移动 2 * k 就可以了，然后判断是否需要有反转的区间。</p>
+<p>​	只要让 i += (2 * k)，i 每次移动 2 * k 就可以了，然后判断是否需要有反转的区间。</p>
 <p>​	因为要找的也就是每2 * k 区间的起点，这样写程序会高效很多。</p>
 <p>​	在<a target="_blank" rel="noopener" href="https://programmercarl.com/0151.%E7%BF%BB%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2%E9%87%8C%E7%9A%84%E5%8D%95%E8%AF%8D.html">151.翻转字符串里的单词</a>中要求翻转字符串里的单词，这道题目可以说是综合考察了字符串的多种操作。是考察字符串的好题。</p>
 <p>​	这道题目通过 <strong>先整体反转再局部反转</strong>，实现了反转字符串里的单词。</p>
 <p>​	后来发现反转字符串还有一个牛逼的用处，就是达到左旋的效果,先局部反转再整体反转。</p>
-<h4 id="KMP"><a href="#KMP" class="headerlink" title="KMP"></a>KMP</h4><p>​	KMP的主要思想是<strong>当出现字符串不匹配时，可以知道一部分之前已经匹配的文本内容，可以利用这些信息避免从头再去做匹配了。</strong></p>
+<h4 id="KMP"><a class="header-anchor" href="#KMP"></a>KMP</h4>
+<p>​	KMP的主要思想是<strong>当出现字符串不匹配时，可以知道一部分之前已经匹配的文本内容，可以利用这些信息避免从头再去做匹配了。</strong></p>
 <p>​	KMP的精髓所在就是前缀表</p>
 <p>​	前缀表：起始位置到下标i之前（包括i）的子串中，有多大长度的相同前缀后缀。</p>
 <p>​	那么使用KMP可以解决两类经典问题：</p>
@@ -469,13 +513,21 @@
 <p>​	再一次强调了什么是前缀，什么是后缀，什么又是最长相等前后缀。</p>
 <p>​	前缀：指不包含最后一个字符的所有以第一个字符开头的连续子串。</p>
 <p>​	后缀：指不包含第一个字符的所有以最后一个字符结尾的连续子串。</p>
-<p>​	然后<strong>针对前缀表到底要不要减一，这其实是不同KMP实现的方式</strong>,其中主要<strong>理解j&#x3D;next[x]这一步最为关键！</strong></p>
-<h2 id="双指针法-2"><a href="#双指针法-2" class="headerlink" title="双指针法"></a>双指针法</h2><p>​	双指针法并不隶属于某一种数据结构，我们在讲解数组，链表，字符串都用到了双指针法，所有有必要针对双指针法做一个总结。</p>
-<h2 id="栈与队列"><a href="#栈与队列" class="headerlink" title="栈与队列"></a>栈与队列</h2><h2 id="二叉树"><a href="#二叉树" class="headerlink" title="二叉树"></a>二叉树</h2><h2 id="回溯算法"><a href="#回溯算法" class="headerlink" title="回溯算法"></a>回溯算法</h2><h2 id="贪心算法"><a href="#贪心算法" class="headerlink" title="贪心算法"></a>贪心算法</h2><h2 id="动态规划"><a href="#动态规划" class="headerlink" title="动态规划"></a>动态规划</h2><h2 id="单调栈"><a href="#单调栈" class="headerlink" title="单调栈"></a>单调栈</h2><h2 id="图论"><a href="#图论" class="headerlink" title="图论"></a>图论</h2>
+<p>​	然后<strong>针对前缀表到底要不要减一，这其实是不同KMP实现的方式</strong>,其中主要<strong>理解j=next[x]这一步最为关键！</strong></p>
+<h2 id="双指针法-3"><a class="header-anchor" href="#双指针法-3"></a>双指针法</h2>
+<p>​	双指针法并不隶属于某一种数据结构，我们在讲解数组，链表，字符串都用到了双指针法，所有有必要针对双指针法做一个总结。</p>
+<h2 id="栈与队列"><a class="header-anchor" href="#栈与队列"></a>栈与队列</h2>
+<h2 id="二叉树"><a class="header-anchor" href="#二叉树"></a>二叉树</h2>
+<h2 id="回溯算法"><a class="header-anchor" href="#回溯算法"></a>回溯算法</h2>
+<h2 id="贪心算法"><a class="header-anchor" href="#贪心算法"></a>贪心算法</h2>
+<h2 id="动态规划"><a class="header-anchor" href="#动态规划"></a>动态规划</h2>
+<h2 id="单调栈"><a class="header-anchor" href="#单调栈"></a>单调栈</h2>
+<h2 id="图论"><a class="header-anchor" href="#图论"></a>图论</h2>
+
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2024/02/16/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/" data-id="clspstzzx000h5cuxg8425twz" data-title="跟着carl学算法" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2024/02/16/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/" data-id="clspu66xd000h5suxetv6a8ua" data-title="跟着carl学算法" class="article-share-link">Share</a>
       
       
         <a href="/2024/02/16/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/#comments" class="article-comment-link">
@@ -503,14 +555,14 @@
         
           
           
-            <img data-src="/images/banner.jpg" data-sizes="auto" alt="C++基础入门" class="lazyload">
+            <img data-src="/images/banner.jpg" data-sizes="auto" alt="C++学习路线" class="lazyload">
           
         
-        <a href="/2024/02/16/C++%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"></a>
+        <a href="/2024/02/16/C++%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/"></a>
         <div class="article-nav-caption">Newer</div>
         <h3 class="article-nav-title">
           
-            C++基础入门
+            C++学习路线
           
         </h3>
       </div>
@@ -543,7 +595,7 @@
         <span class="icon-copyright"></span>
         2023-2024
         <span class="footer-info-sep"></span>
-        John Doe
+        南山月初瑕
       </div>
       
         <div>
@@ -568,12 +620,12 @@
     
       <div class="sidebar-toc-sidebar"><div class="sidebar-toc">
   <h3 class="toc-title">Contents</h3>
-  <div class="sidebar-toc-wrapper"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%B0%E7%BB%84"><span class="toc-number">1.</span> <span class="toc-text">数组</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%98%E5%82%A8%E6%96%B9%E5%BC%8F"><span class="toc-number">1.1.</span> <span class="toc-text">存储方式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%8Evector%E5%8C%BA%E5%88%AB"><span class="toc-number">1.2.</span> <span class="toc-text">与vector区别</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%8D%E8%83%BD%E5%88%A0%E9%99%A4"><span class="toc-number">1.3.</span> <span class="toc-text">不能删除</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84"><span class="toc-number">1.4.</span> <span class="toc-text">二维数组</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%95%B0%E7%BB%84%E7%9B%B8%E5%85%B3%E9%A2%98%E7%9B%AE"><span class="toc-number">1.5.</span> <span class="toc-text">数组相关题目</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-number">1.6.</span> <span class="toc-text">总结</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%8C%E5%88%86%E6%B3%95"><span class="toc-number">1.6.1.</span> <span class="toc-text">二分法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8F%8C%E6%8C%87%E9%92%88%E6%B3%95"><span class="toc-number">1.6.2.</span> <span class="toc-text">双指针法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3"><span class="toc-number">1.6.3.</span> <span class="toc-text">滑动窗口</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%A8%A1%E6%8B%9F%E8%A1%8C%E4%B8%BA"><span class="toc-number">1.6.4.</span> <span class="toc-text">模拟行为</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%93%BE%E8%A1%A8"><span class="toc-number">2.</span> <span class="toc-text">链表</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8D%95%E9%93%BE%E8%A1%A8"><span class="toc-number">2.1.</span> <span class="toc-text">单链表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%8C%E9%93%BE%E8%A1%A8"><span class="toc-number">2.2.</span> <span class="toc-text">双链表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BE%AA%E7%8E%AF%E9%93%BE%E8%A1%A8"><span class="toc-number">2.3.</span> <span class="toc-text">循环链表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%98%E5%82%A8%E6%96%B9%E5%BC%8F-1"><span class="toc-number">2.4.</span> <span class="toc-text">存储方式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%93%BE%E8%A1%A8%E5%AE%9A%E4%B9%89"><span class="toc-number">2.5.</span> <span class="toc-text">链表定义</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%93%BE%E8%A1%A8%E7%9A%84%E6%93%8D%E4%BD%9C"><span class="toc-number">2.6.</span> <span class="toc-text">链表的操作</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%88%A0%E9%99%A4%E8%8A%82%E7%82%B9"><span class="toc-number">2.6.1.</span> <span class="toc-text">删除节点</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%B7%BB%E5%8A%A0%E8%8A%82%E7%82%B9"><span class="toc-number">2.6.2.</span> <span class="toc-text">添加节点</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90"><span class="toc-number">2.7.</span> <span class="toc-text">性能分析</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%93%BE%E8%A1%A8%E7%9B%B8%E5%85%B3%E9%A2%98%E7%9B%AE"><span class="toc-number">2.8.</span> <span class="toc-text">链表相关题目</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%BB%E7%BB%93-1"><span class="toc-number">2.9.</span> <span class="toc-text">总结</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%99%9A%E6%8B%9F%E5%A4%B4%E7%BB%93%E7%82%B9"><span class="toc-number">2.9.1.</span> <span class="toc-text">虚拟头结点</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%93%BE%E8%A1%A8%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C"><span class="toc-number">2.9.2.</span> <span class="toc-text">链表的基本操作</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8"><span class="toc-number">2.9.3.</span> <span class="toc-text">反转链表</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%88%A0%E9%99%A4%E5%80%92%E6%95%B0%E7%AC%ACN%E4%B8%AA%E8%8A%82%E7%82%B9"><span class="toc-number">2.9.4.</span> <span class="toc-text">删除倒数第N个节点</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%93%BE%E8%A1%A8%E7%9B%B8%E4%BA%A4"><span class="toc-number">2.9.5.</span> <span class="toc-text">链表相交</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8"><span class="toc-number">2.9.6.</span> <span class="toc-text">环形链表</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%93%88%E5%B8%8C%E8%A1%A8"><span class="toc-number">3.</span> <span class="toc-text">哈希表</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF%E5%93%88%E5%B8%8C%E8%A1%A8"><span class="toc-number">3.1.</span> <span class="toc-text">什么是哈希表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%93%88%E5%B8%8C%E5%87%BD%E6%95%B0"><span class="toc-number">3.2.</span> <span class="toc-text">哈希函数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%93%88%E5%B8%8C%E7%A2%B0%E6%92%9E"><span class="toc-number">3.3.</span> <span class="toc-text">哈希碰撞</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B8%B8%E8%A7%81%E7%9A%84%E5%93%88%E5%B8%8C%E7%BB%93%E6%9E%84"><span class="toc-number">3.4.</span> <span class="toc-text">常见的哈希结构</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%93%88%E5%B8%8C%E8%A1%A8%E4%BD%95%E6%97%B6%E4%BD%BF%E7%94%A8"><span class="toc-number">3.5.</span> <span class="toc-text">哈希表何时使用</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%93%88%E5%B8%8C%E8%A1%A8%E7%9B%B8%E5%85%B3%E9%A2%98%E7%9B%AE"><span class="toc-number">3.6.</span> <span class="toc-text">哈希表相关题目</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%BB%E7%BB%93-2"><span class="toc-number">3.7.</span> <span class="toc-text">总结</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%95%B0%E7%BB%84%E4%BD%9C%E4%B8%BA%E5%93%88%E5%B8%8C%E8%A1%A8"><span class="toc-number">3.7.1.</span> <span class="toc-text">数组作为哈希表</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#set%E4%BD%9C%E4%B8%BA%E5%93%88%E5%B8%8C%E8%A1%A8"><span class="toc-number">3.7.2.</span> <span class="toc-text">set作为哈希表</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#map%E4%BD%9C%E4%B8%BA%E5%93%88%E5%B8%8C%E8%A1%A8"><span class="toc-number">3.7.3.</span> <span class="toc-text">map作为哈希表</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2"><span class="toc-number">4.</span> <span class="toc-text">字符串</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9B%B8%E5%85%B3%E9%A2%98%E7%9B%AE"><span class="toc-number">4.1.</span> <span class="toc-text">字符串相关题目</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8F%8C%E6%8C%87%E9%92%88%E6%B3%95-1"><span class="toc-number">4.1.1.</span> <span class="toc-text">双指针法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8F%8D%E8%BD%AC%E7%B3%BB%E5%88%97"><span class="toc-number">4.1.2.</span> <span class="toc-text">反转系列</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#KMP"><span class="toc-number">4.1.3.</span> <span class="toc-text">KMP</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%8C%E6%8C%87%E9%92%88%E6%B3%95-2"><span class="toc-number">5.</span> <span class="toc-text">双指针法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97"><span class="toc-number">6.</span> <span class="toc-text">栈与队列</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E5%8F%89%E6%A0%91"><span class="toc-number">7.</span> <span class="toc-text">二叉树</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95"><span class="toc-number">8.</span> <span class="toc-text">回溯算法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95"><span class="toc-number">9.</span> <span class="toc-text">贪心算法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92"><span class="toc-number">10.</span> <span class="toc-text">动态规划</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%95%E8%B0%83%E6%A0%88"><span class="toc-number">11.</span> <span class="toc-text">单调栈</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%BE%E8%AE%BA"><span class="toc-number">12.</span> <span class="toc-text">图论</span></a></li></ol></div>
+  <div class="sidebar-toc-wrapper"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%B0%E7%BB%84"><span class="toc-number">1.</span> <span class="toc-text">数组</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%8Evector%E5%8C%BA%E5%88%AB"><span class="toc-number">1.1.</span> <span class="toc-text">与vector区别</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%8D%E8%83%BD%E5%88%A0%E9%99%A4"><span class="toc-number">1.2.</span> <span class="toc-text">不能删除</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84"><span class="toc-number">1.3.</span> <span class="toc-text">二维数组</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%95%B0%E7%BB%84%E7%9B%B8%E5%85%B3%E9%A2%98%E7%9B%AE"><span class="toc-number">1.4.</span> <span class="toc-text">数组相关题目</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-number">1.5.</span> <span class="toc-text">总结</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%8C%E5%88%86%E6%B3%95"><span class="toc-number">1.5.1.</span> <span class="toc-text">二分法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8F%8C%E6%8C%87%E9%92%88%E6%B3%95"><span class="toc-number">1.5.2.</span> <span class="toc-text">双指针法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3"><span class="toc-number">1.5.3.</span> <span class="toc-text">滑动窗口</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%A8%A1%E6%8B%9F%E8%A1%8C%E4%B8%BA"><span class="toc-number">1.5.4.</span> <span class="toc-text">模拟行为</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%93%BE%E8%A1%A8"><span class="toc-number">2.</span> <span class="toc-text">链表</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8D%95%E9%93%BE%E8%A1%A8"><span class="toc-number">2.1.</span> <span class="toc-text">单链表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%8C%E9%93%BE%E8%A1%A8"><span class="toc-number">2.2.</span> <span class="toc-text">双链表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BE%AA%E7%8E%AF%E9%93%BE%E8%A1%A8"><span class="toc-number">2.3.</span> <span class="toc-text">循环链表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%93%BE%E8%A1%A8%E5%AE%9A%E4%B9%89"><span class="toc-number">2.4.</span> <span class="toc-text">链表定义</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%93%BE%E8%A1%A8%E7%9A%84%E6%93%8D%E4%BD%9C"><span class="toc-number">2.5.</span> <span class="toc-text">链表的操作</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%88%A0%E9%99%A4%E8%8A%82%E7%82%B9"><span class="toc-number">2.5.1.</span> <span class="toc-text">删除节点</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%B7%BB%E5%8A%A0%E8%8A%82%E7%82%B9"><span class="toc-number">2.5.2.</span> <span class="toc-text">添加节点</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%93%BE%E8%A1%A8%E7%9B%B8%E5%85%B3%E9%A2%98%E7%9B%AE"><span class="toc-number">2.6.</span> <span class="toc-text">链表相关题目</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%BB%E7%BB%93-2"><span class="toc-number">2.7.</span> <span class="toc-text">总结</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%99%9A%E6%8B%9F%E5%A4%B4%E7%BB%93%E7%82%B9"><span class="toc-number">2.7.1.</span> <span class="toc-text">虚拟头结点</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%93%BE%E8%A1%A8%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C"><span class="toc-number">2.7.2.</span> <span class="toc-text">链表的基本操作</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8"><span class="toc-number">2.7.3.</span> <span class="toc-text">反转链表</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%88%A0%E9%99%A4%E5%80%92%E6%95%B0%E7%AC%ACN%E4%B8%AA%E8%8A%82%E7%82%B9"><span class="toc-number">2.7.4.</span> <span class="toc-text">删除倒数第N个节点</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%93%BE%E8%A1%A8%E7%9B%B8%E4%BA%A4"><span class="toc-number">2.7.5.</span> <span class="toc-text">链表相交</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8"><span class="toc-number">2.7.6.</span> <span class="toc-text">环形链表</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%93%88%E5%B8%8C%E8%A1%A8"><span class="toc-number">3.</span> <span class="toc-text">哈希表</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF%E5%93%88%E5%B8%8C%E8%A1%A8"><span class="toc-number">3.1.</span> <span class="toc-text">什么是哈希表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%93%88%E5%B8%8C%E5%87%BD%E6%95%B0"><span class="toc-number">3.2.</span> <span class="toc-text">哈希函数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B8%B8%E8%A7%81%E7%9A%84%E5%93%88%E5%B8%8C%E7%BB%93%E6%9E%84"><span class="toc-number">3.3.</span> <span class="toc-text">常见的哈希结构</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%93%88%E5%B8%8C%E8%A1%A8%E4%BD%95%E6%97%B6%E4%BD%BF%E7%94%A8"><span class="toc-number">3.4.</span> <span class="toc-text">哈希表何时使用</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%93%88%E5%B8%8C%E8%A1%A8%E7%9B%B8%E5%85%B3%E9%A2%98%E7%9B%AE"><span class="toc-number">3.5.</span> <span class="toc-text">哈希表相关题目</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%BB%E7%BB%93-3"><span class="toc-number">3.6.</span> <span class="toc-text">总结</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%95%B0%E7%BB%84%E4%BD%9C%E4%B8%BA%E5%93%88%E5%B8%8C%E8%A1%A8"><span class="toc-number">3.6.1.</span> <span class="toc-text">数组作为哈希表</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#set%E4%BD%9C%E4%B8%BA%E5%93%88%E5%B8%8C%E8%A1%A8"><span class="toc-number">3.6.2.</span> <span class="toc-text">set作为哈希表</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#map%E4%BD%9C%E4%B8%BA%E5%93%88%E5%B8%8C%E8%A1%A8"><span class="toc-number">3.6.3.</span> <span class="toc-text">map作为哈希表</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9B%B8%E5%85%B3%E9%A2%98%E7%9B%AE"><span class="toc-number">3.7.</span> <span class="toc-text">字符串相关题目</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8F%8C%E6%8C%87%E9%92%88%E6%B3%95-2"><span class="toc-number">3.7.1.</span> <span class="toc-text">双指针法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8F%8D%E8%BD%AC%E7%B3%BB%E5%88%97"><span class="toc-number">3.7.2.</span> <span class="toc-text">反转系列</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#KMP"><span class="toc-number">3.7.3.</span> <span class="toc-text">KMP</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%8C%E6%8C%87%E9%92%88%E6%B3%95-3"><span class="toc-number">4.</span> <span class="toc-text">双指针法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97"><span class="toc-number">5.</span> <span class="toc-text">栈与队列</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E5%8F%89%E6%A0%91"><span class="toc-number">6.</span> <span class="toc-text">二叉树</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95"><span class="toc-number">7.</span> <span class="toc-text">回溯算法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95"><span class="toc-number">8.</span> <span class="toc-text">贪心算法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92"><span class="toc-number">9.</span> <span class="toc-text">动态规划</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%95%E8%B0%83%E6%A0%88"><span class="toc-number">10.</span> <span class="toc-text">单调栈</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%BE%E8%AE%BA"><span class="toc-number">11.</span> <span class="toc-text">图论</span></a></li></ol></div>
 </div>
 </div>
       <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
-  <img data-src="/avatar/avatar.jpg" data-sizes="auto" alt="John Doe" class="lazyload">
-  <div class="sidebar-author-name">John Doe</div>
+  <img data-src="/avatar/avatar.jpg" data-sizes="auto" alt="南山月初瑕" class="lazyload">
+  <div class="sidebar-author-name">南山月初瑕</div>
   <div class="sidebar-description"></div>
 </div>
 <div class="sidebar-state">
@@ -610,19 +662,19 @@
     <div class="sidebar-menu-link-wrap">
       <a class="sidebar-menu-link-dummy" href="/"></a>
       <span class="sidebar-menu-icon"></span>
-      <div class="sidebar-menu-link">Home</div>
+      <div class="sidebar-menu-link">主页</div>
     </div>
   
     <div class="sidebar-menu-link-wrap">
       <a class="sidebar-menu-link-dummy" href="/archives"></a>
       <span class="sidebar-menu-icon"></span>
-      <div class="sidebar-menu-link">Archives</div>
+      <div class="sidebar-menu-link">文章</div>
     </div>
   
     <div class="sidebar-menu-link-wrap">
       <a class="sidebar-menu-link-dummy" href="/about"></a>
       <span class="sidebar-menu-icon"></span>
-      <div class="sidebar-menu-link">About</div>
+      <div class="sidebar-menu-link">关于</div>
     </div>
   
 </div>
